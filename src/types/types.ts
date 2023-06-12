@@ -1,10 +1,10 @@
-export interface MenuItem{
+export interface MenuItems{
 
   title: string;
   url: string;
 }
 
-export interface CardItem {
+export interface CardItems {
   title: string;
   image: string;
   description : string;

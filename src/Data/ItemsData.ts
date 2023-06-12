@@ -1,8 +1,8 @@
-import type { MenuItem } from "../types/types";
+import type { MenuItems } from "../types/types";
 
-const menuItem:MenuItem [] = [
+const itemsMenu:MenuItems [] = [
   {
-    title: 'Home',
+    title: 'Inicio',
     url : '/'
   },
   {
@@ -15,4 +15,4 @@ const menuItem:MenuItem [] = [
   },
 ];
 
-export default menuItem;
+export default itemsMenu;

@@ -1,15 +1,15 @@
 ---
-import type { MenuItem } from '../types/types';
+import type { itemsMenu } from '../types/types'
 
-interface Props extends MenuItem{
+interface Props extends itemsMenu{
 }
-
 const {title, url} = Astro.props;
 ---
-
-<li>
-  <a href={url}>{title}</a>
-</li>
+<ul>
+  <li>
+    <a href={url}>{title}</a>
+  </li>
+</ul>
 <style>
   li{
     list-style: none;
@@ -21,7 +21,7 @@ const {title, url} = Astro.props;
     font-size: 20px;
     display: block;
     padding: 30px 40 px;
-    color: white;
+    color: rgb(14, 13, 13);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     display: flex;
